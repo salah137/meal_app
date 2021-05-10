@@ -1,9 +1,9 @@
-import 'package:mealapp/Screens/CategorieItemes.dart';
+import '../models/category.dart';
 import '../models/dummy_data.dart';
 import 'package:flutter/material.dart';
 import '../main.dart';
 import '../Latouts/Drawer.dart';
-
+import 'CategorieItemes.dart';
 
 class HomePage extends StatefulWidget {
   static var name = "Home";
